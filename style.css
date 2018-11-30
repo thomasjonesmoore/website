@@ -3,7 +3,7 @@
 	font-size: 18px;
 	background: white;
 	width: 100%;
-	height: 100px;
+	height: 90px;
 }
 #container{
 	position: relative;
@@ -78,4 +78,23 @@ body{
 	text-align: center;
 	font-size: 14px;
 	font-family: Helvetica;
+}
+#logo{
+	position: relative;
+	top:5%;
+	left:50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+#contact_title{
+	font-family: Trebuchet MS;
+	color: black;
+	text-align:center;
+	height: 60px;
+	font-size: 25px;
+}
+#li_logo{
+	position: absolute;
+	top:63%;
+	left:50%;
 }
